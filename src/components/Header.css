@@ -1,0 +1,18 @@
+header {
+  background-color: #f5ba13;
+  /* -ve left and right margins pull the header to fill the whole width of page*/
+  /* auto top and bottom margin means margin top is 0 */
+  /* margin: auto -16px; */
+  margin: 0 -16px;
+  /* margin: auto auto; */
+  padding: 16px 32px;
+  /* add a little blurring edges of header for aesthetic purpose*/
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+

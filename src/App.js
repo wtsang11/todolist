@@ -3,7 +3,7 @@ import Header from './components/Header'
 import React, { useState, useEffect } from 'react'
 import Note from './components/Note'
 import Footer from './components/Footer'
-import EditNote from './components/editNote';
+import EditNote from './components/EditNote';
 
 
 function App() {

@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import CancelIcon from '@material-ui/icons/Cancel';
 import SaveIcon from '@material-ui/icons/Save';
 import Fab from '@material-ui/core/Fab'
+import './EditNote.css';
 
 function EditNote(props) {
 
@@ -30,7 +31,7 @@ function EditNote(props) {
     props.onSave(props.id)
   }
   return (
-    <div className="note">
+    <div className="edit-note-wrap">
       <div className="modal-backdrop">
         <div className="modal-body">
           <form className="edit-note">

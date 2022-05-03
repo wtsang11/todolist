@@ -1,7 +1,8 @@
 import React from 'react'
 import DeleteIcon from '@material-ui/icons/Delete'
 import EditIcon from '@material-ui/icons/Edit';
-import Checkbox from "@material-ui/core/Checkbox";
+import './Note.css';
+// import Checkbox from "@material-ui/core/Checkbox";
 
 
 function Note(props) {
@@ -24,10 +25,12 @@ function Note(props) {
       <h1>{props.title}</h1>
       <p>{props.content}</p>
 
-      <label>
-          <Checkbox
+      <label for="done">
+          <input className="done"
+          type="checkbox"
             checked={checked}
             onChange={handleDoneChange}
+            name="done"
           />
           <span>Done</span>
       </label>

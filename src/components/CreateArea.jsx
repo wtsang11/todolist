@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Fab from '@material-ui/core/Fab'
 import AddIcon from '@material-ui/icons/Add'
+import './CreateArea.css';
 
 function CreateArea(props) {
   const [note, setNote] = useState({
